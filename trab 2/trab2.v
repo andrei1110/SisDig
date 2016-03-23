@@ -1,4 +1,4 @@
-module trab2( input CLOCK_50, output [0:0]LEDG);
+module trab2( input CLOCK_50, output [3:0]LEDG);
 
 	reg [31:0] cont = 0;
 	reg pisca = 1;
